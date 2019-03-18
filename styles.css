@@ -6,7 +6,6 @@ body {
 h1 {
   font-size: 5rem;
   color: rgb(0, 180, 235);
-  font-family: "Arvo", cursive;
   text-shadow: 3px 0 rgb(59, 58, 74);
 
 }
@@ -20,11 +19,6 @@ footer {
   margin: 10% auto;
 }
 
-
-.pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
-}
 
 .drum {
   outline: none;
@@ -42,15 +36,13 @@ footer {
   background-color: rgb(59, 58, 74);
 }
 
-.rec-container{
+.recordings{
   border: 10px solid rgb(0, 180, 235);
   color: rgb(22, 22, 38);
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
+  width: 90px;
+  height: 50px;
   display: inline-block;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
-}  
+}
+ 
